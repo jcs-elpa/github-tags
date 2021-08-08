@@ -8,7 +8,7 @@
 
 ```el
 (let ((data (github-tags "jcs-elpa/github-tags")))
-  (message "names: %s" github-tags-names)  ; list of tags
+  (message "names: %s" github-tags-names)           ; list of tags
   (message "zipball: %s" github-tags-zipball-urls)
   (message "tarball: %s" github-tags-tarball-urls)
   (message "commit: %s" github-tags-commits)
