@@ -32,6 +32,9 @@
 
 ;;; Code:
 
+(require 'json)
+(require 'url)
+
 (defgroup github-tags nil
   "Retrieve tags information through GitHub API."
   :prefix "github-tags-"
