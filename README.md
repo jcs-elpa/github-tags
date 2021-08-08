@@ -4,6 +4,8 @@
 # github-tags
 > Retrieve tags information through GitHub API
 
+## :floppy-disk: Quickstart
+
 ```el
 (let ((data (github-tags "jcs-elpa/github-tags")))
   (message "names: %s" github-tags-names)  ; list of tags
