@@ -41,6 +41,8 @@
 (defconst github-tags-api "https://api.github.com/repos/%s/tags"
   "API url to GitHub tags.")
 
+(defvar url-http-end-of-headers)
+
 (defvar github-tags-names nil)
 (defvar github-tags-zipball-urls nil)
 (defvar github-tags-tarball-urls nil)
