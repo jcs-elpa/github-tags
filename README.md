@@ -4,6 +4,15 @@
 # github-tags
 > Retrieve tags information through GitHub API
 
+```el
+(let ((data (github-tags "jcs-elpa/github-tags")))
+  (message "names: %s" github-tags-names)
+  (message "zipball: %s" github-tags-zipball-urls)
+  (message "tarball: %s" github-tags-tarball-urls)
+  (message "commit: %s" github-tags-commits)
+  (message "nodeId: %s" github-tags-node-ids)
+  )
+```
 
 ## Contribution
 
