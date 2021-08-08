@@ -6,7 +6,7 @@
 ;; Author: Shen, Jen-Chieh <jcs090218@gmail.com>
 ;; Description: Retrieve tags information through GitHub API
 ;; Keyword: github tags
-;; Version: 0.0.1
+;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24.3"))
 ;; URL: https://github.com/jcs-elpa/github-tags
 
