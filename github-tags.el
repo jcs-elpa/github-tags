@@ -68,7 +68,9 @@
         github-tags-commits nil
         github-tags-node-ids nil)
   (let* ((url (format github-tags-api path))
-         (data (github-tags--url-to-json url)))
+         (data (ignore-errors (github-tags--url-to-json url)))
+         (msg-err (cdr (assoc 'message data))))
+    (when msg-err (user-error "[ERROR] %s, %s" msg-err url))
     (dolist (tag data)
       (let ((name (cdr (assoc 'name tag)))
             (zipball (cdr (assoc 'zipball_url tag)))
