@@ -1,8 +1,9 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![CI](https://github.com/jcs-elpa/github-tags/actions/workflows/test.yml/badge.svg)](https://github.com/jcs-elpa/github-tags/actions/workflows/test.yml)
 
 # github-tags
 > Retrieve tags information through GitHub API
+
+[![CI](https://github.com/jcs-elpa/github-tags/actions/workflows/test.yml/badge.svg)](https://github.com/jcs-elpa/github-tags/actions/workflows/test.yml)
 
 ## :floppy_disk: Quickstart
 
