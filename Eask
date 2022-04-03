@@ -1,6 +1,10 @@
 (source "melpa")
 
+(package "github-tags" "0.1.0" "Retrieve tags information through GitHub API")
+
 (package-file "github-tags.el")
+
+(depends-on "emacs" "24.3")
 
 (development
  (depends-on "ert-runner"))
