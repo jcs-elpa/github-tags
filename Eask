@@ -2,6 +2,9 @@
          "0.1.0"
          "Retrieve tags information through GitHub API")
 
+(website-url "https://github.com/jcs-elpa/github-tags")
+(keywords "github" "tags")
+
 (package-file "github-tags.el")
 
 (source "melpa")
