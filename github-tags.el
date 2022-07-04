@@ -7,7 +7,7 @@
 ;; URL: https://github.com/jcs-elpa/github-tags
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24.3"))
-;; Keywords: github tags
+;; Keywords: vc github tags
 
 ;; This file is NOT part of GNU Emacs.
 
