@@ -9,12 +9,12 @@
 ## :floppy_disk: Quickstart
 
 ```el
-(let ((data (github-tags "jcs-elpa/github-tags")))
-  (message "names: %s" github-tags-names)           ; list of tags
-  (message "zipball: %s" github-tags-zipball-urls)
-  (message "tarball: %s" github-tags-tarball-urls)
-  (message "commit: %s" github-tags-commits)
-  (message "nodeId: %s" github-tags-node-ids)
+(let ((response (cdr (github-tags "jcs-elpa/github-tags"))))
+  (message "names: %s" (plist-get response :names))  ; list of tags
+  (message "zipball: %s" (plist-get response :zipball-urls))
+  (message "tarball: %s" (plist-get response :tarball-urls))
+  (message "commit: %s" (plist-get response :commits))
+  (message "nodeId: %s" (plist-get response :node-ids))
   )
 ```
 
