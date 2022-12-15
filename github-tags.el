@@ -43,7 +43,17 @@
 (defconst github-tags-api "https://api.github.com/repos/%s/tags"
   "API url to GitHub tags.")
 
+;;
+;; (@* "Externals" )
+;;
+
 (defvar url-http-end-of-headers)
+
+(declare-function msgu-silent "ext:msgu-silent.el")
+
+;;
+;; (@* "Core" )
+;;
 
 (defun github-tags--url-to-json (url)
   "Get data by URL and convert it to JSON."
@@ -53,6 +63,7 @@
     (prog1 (let ((json-array-type 'list)) (json-read))
       (kill-buffer))))
 
+;;;###autoload
 (defun github-tags (path)
   "Retrive tags data for PATH from GitHub API."
   (let* ((names) (zipball-urls) (tarball-urls) (commits) (node-ids)
