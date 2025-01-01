@@ -1,6 +1,6 @@
 ;;; github-tags.el --- Retrieve tags information through GitHub API  -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2021-2024  Shen, Jen-Chieh
+;; Copyright (C) 2021-2025  Shen, Jen-Chieh
 ;; Created date 2021-08-08 16:14:37
 
 ;; Author: Shen, Jen-Chieh <jcs090218@gmail.com>
