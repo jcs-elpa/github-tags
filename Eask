@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "github-tags"
          "0.1.0"
          "Retrieve tags information through GitHub API")
